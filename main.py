@@ -9,7 +9,7 @@ def even_list(int_list: List[int]) -> List[int]:
     Returns:        
         A list of even integers.    
     """    
-
+    return [x for x in int_list if x % 2 == 0]
     # TODO: Implement even_list    
     pass
     
